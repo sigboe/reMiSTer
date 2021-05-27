@@ -6,7 +6,8 @@ This is a program that lets you remotly control your MiSTer device as if you had
 ## Installation
 
 * Download reMiSTer from the releaes page, [Direct Link](https://github.com/sigboe/reMiSTer/releases/latest/download/remister)  and put it into `/media/fat/linux/` which is the `linux` folder on your SD card.
-* Download pocomane's MiSTer_Batch_Control from his repo [Direct Link](https://github.com/pocomane/MiSTer_Batch_Control/releases/latest/download/mbc) and put it into `/media/fat/linux/` which again is the `linux` folder on your SD card.
+* Download pocomane's MiSTer_Batch_Control from his repo [Direct Link](https://github.com/pocomane/MiSTero_Batch_Control/releases/latest/download/mbc) and put it into `/media/fat/linux/` which again is the `linux` folder on your SD card.
+* If you are on Windows and are using Putty you might need to change a setting to allow F1 through F4 to work. In PuTTy Configuration, under Terminal > Keyboard select Xtrem R6.
 
 ## Usage
 SSH into your mister and type `remister`. Ctrl+D to close the program (just like you can log out of SSH or a close a shell prompt with Ctrl+D)
